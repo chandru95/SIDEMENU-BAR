@@ -13,6 +13,8 @@
 		F6B2C90F2ACEB78400DABB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B2C90D2ACEB78400DABB1C /* Main.storyboard */; };
 		F6B2C9112ACEB78500DABB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B2C9102ACEB78500DABB1C /* Assets.xcassets */; };
 		F6B2C9142ACEB78500DABB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B2C9122ACEB78500DABB1C /* LaunchScreen.storyboard */; };
+		F6B2C91D2ACEBB9100DABB1C /* menuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2C91B2ACEBB9000DABB1C /* menuTableViewCell.swift */; };
+		F6B2C91E2ACEBB9100DABB1C /* menuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6B2C91C2ACEBB9100DABB1C /* menuTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F6B2C9102ACEB78500DABB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B2C9132ACEB78500DABB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B2C9152ACEB78500DABB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B2C91B2ACEBB9000DABB1C /* menuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuTableViewCell.swift; sourceTree = "<group>"; };
+		F6B2C91C2ACEBB9100DABB1C /* menuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				F6B2C9072ACEB78400DABB1C /* AppDelegate.swift */,
 				F6B2C9092ACEB78400DABB1C /* SceneDelegate.swift */,
 				F6B2C90B2ACEB78400DABB1C /* ViewController.swift */,
+				F6B2C91B2ACEBB9000DABB1C /* menuTableViewCell.swift */,
+				F6B2C91C2ACEBB9100DABB1C /* menuTableViewCell.xib */,
 				F6B2C90D2ACEB78400DABB1C /* Main.storyboard */,
 				F6B2C9102ACEB78500DABB1C /* Assets.xcassets */,
 				F6B2C9122ACEB78500DABB1C /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				F6B2C9142ACEB78500DABB1C /* LaunchScreen.storyboard in Resources */,
 				F6B2C9112ACEB78500DABB1C /* Assets.xcassets in Resources */,
+				F6B2C91E2ACEBB9100DABB1C /* menuTableViewCell.xib in Resources */,
 				F6B2C90F2ACEB78400DABB1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				F6B2C90C2ACEB78400DABB1C /* ViewController.swift in Sources */,
 				F6B2C9082ACEB78400DABB1C /* AppDelegate.swift in Sources */,
+				F6B2C91D2ACEBB9100DABB1C /* menuTableViewCell.swift in Sources */,
 				F6B2C90A2ACEB78400DABB1C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +303,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
